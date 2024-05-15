@@ -1,0 +1,80 @@
+/* Estilo da página da Amazon */
+.pagina-amazon {
+    padding: 20px;
+}
+
+/* Alinhamento do conteúdo */
+.alinhar {
+    width: 100%;
+}
+
+/* Estilo do título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Contêiner da tabela */
+.table-container {
+    overflow-x: auto;
+}
+
+/* Estilo da tabela da Amazon */
+.amazon-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo das células de cabeçalho e corpo */
+.amazon-table th,
+.amazon-table td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Cinza */
+    text-align: left;
+    font-weight: bold; /* Negrito */
+}
+
+/* Estilo do botão de paginação da Amazon */
+.pagination-amazon button {
+    background-color: #fff; /* Branco */
+    color: #000000; /* Preto */
+    border: 1px solid #ffffff; /* Branco */
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito de hover no botão de paginação da Amazon */
+.pagination-amazon button:hover {
+    background-color: #d6e509; /* Vermelho Netflix */
+    color: #fff; /* Branco */
+}
+
+/* Estilo do botão "Anterior" da Amazon */
+.pagination-amazon button:first-child {
+    margin-right: 10px;
+}
+
+/* Estilo do botão "Próxima" da Amazon */
+.pagination-amazon button:last-child {
+    margin-left: 10px;
+}
+
+/* Estilo do botão de paginação da Amazon quando desativado */
+.pagination-amazon button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Estilo do ícone de lixeira */
+.trash-iconAma {
+    color: black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de hover no ícone de lixeira */
+.trash-iconAma:hover {
+    color: rgb(25, 0, 255);
+    transform: scale(1.3);
+}

@@ -1,0 +1,75 @@
+/* TableFIFA.css */
+
+/* Estilo do fundo azul */
+.pagina.fifa {
+    padding: 20px;
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Branco */
+}
+
+/* Estilo do título */
+.Titulo-FIFA {
+    margin-bottom: 20px;
+}
+
+.Titulo-FIFA h1 {
+    margin: 0;
+    color: #fff; /* Branco */
+}
+
+/* Estilo da tabela */
+.fifa-table-container {
+    overflow-x: auto;
+}
+
+.fifa-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fifa-table th,
+.fifa-table td {
+    padding: 8px;
+    border: 1px solid #fff; /* Branco */
+    text-align: left;
+    font-weight: 500; /* Peso da fonte */
+    color: #fff; /* Branco */
+}
+
+.fifa-table th {
+    background-color: #f1c40f; /* Amarelo */
+}
+
+.fifa-table tbody tr:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+/* Estilos para o botão de paginação */
+.pagination-fifa button {
+    background-color: #fff; /* Branco */
+    color: #3498db; /* Azul */
+    border: 1px solid #3498db; /* Azul */
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito de hover no botão de paginação */
+.pagination-fifa button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+    color: #fff; /* Branco */
+}
+
+/* Estilos para o ícone de lixeira */
+.trash-icon-fifa {
+    color: #fff; /* Branco */
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito de hover no ícone de lixeira */
+.trash-icon-fifa:hover {
+    color: #f1c40f; /* Amarelo */
+    transform: scale(1.3);
+}

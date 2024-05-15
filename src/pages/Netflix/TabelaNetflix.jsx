@@ -1,12 +1,17 @@
-import styles from './Netflix.module.css';
 import NavBar from "../../components/NavBar";
+import ListarShowsTable from "../../components/Tables/TableNetflix/TableNetflix";
+import './Netflix.module.css'; // Importe o arquivo de estilo CSS
 
 function TabelaNetflix() {
     return (
         <>
-            <NavBar />
-            <h1>Tabela Netflix</h1>
+            <div className="pagina-preta">
+                <NavBar />
+                    <h1>Tabela Netflix</h1>
+                <ListarShowsTable />
+            </div>
         </>
+
     );
 }
 
